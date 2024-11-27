@@ -23,8 +23,8 @@ spec:
           image: cepgbaseacr.azurecr.io/troubleshooting:latest
           resources:
             limits:
-              memory: 512Mi
+              memory: 1Gi
               cpu: 500m
             requests:
               memory: 512Mi
-              cpu: 500m
+              cpu: 250m
